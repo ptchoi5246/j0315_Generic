@@ -32,8 +32,8 @@ public class Test2 {
 		System.out.println();
 		
 		MyClass2<Integer, String> mc2 = new MyClass2<>();
-		mc2.setT(200);
-		mc2.setV("안녕");
+		mc2.setT(404);
+		mc2.setV("Page Not Found(요청한 페이지를 찾을 수 없습니다.)");
 		System.out.println("key : " + mc2.getT() + ", value : " + mc2.getV());
 		System.out.println();
 	}
